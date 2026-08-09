@@ -8,6 +8,7 @@ A Data Analyst assignment focused on designing and managing an Employee Database
 As a Data Analyst, the company requires an Employee Database to store and manage information related to employees, departments, and locations. The goal is to design this database using MySQL DDL commands, while enforcing appropriate constraints to ensure data integrity and consistency.
 
 🧩 Schema Overview
+
 Table	Key Attributes
 Departments_Info	department_id (PK), department_name
 Locations	location_id (PK, auto-increment), location_name
@@ -22,16 +23,25 @@ The script is organized into six clearly commented sections, meant to be run top
 Creates the employee database and the Departments, Location, and Employees tables with primary and foreign keys.
 
 2. Table Alteration
+
 Adds an email column to Employees
+
 Widens the designation column's data type
+
 Drops the age column
+
 Renames hire_date → date_of_joining
+
 3. Table Renaming
+
 Departments → Departments_Info
+
 Location → Locations
+
 4. Table Truncation
 
 Empties all rows from the Employees table while keeping its structure.
+
 5. Database & Table Dropping
 
 Drops the Employees table, then drops the entire employee database.
@@ -40,6 +50,7 @@ Drops the Employees table, then drops the entire employee database.
 Database: MySQL 8.0+
 
 Tooling: MySQL Workbench / MySQL CLI
+
 👤 Author
 
 Data Analyst Assignment — Employee Database DDL & Constraints Project.
