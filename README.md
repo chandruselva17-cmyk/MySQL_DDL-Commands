@@ -32,14 +32,14 @@ Location → Locations
 4. Table Truncation
 
 Empties all rows from the Employees table while keeping its structure.
+5. Database & Table Dropping
+
+Drops the Employees table, then drops the entire employee database.
 
 🛠️ Tech Stack
 Database: MySQL 8.0+
+
 Tooling: MySQL Workbench / MySQL CLI
 👤 Author
 
 Data Analyst Assignment — Employee Database DDL & Constraints Project.
-
-5. Database & Table Dropping
-
-Drops the Employees table, then drops the entire employee database.
